@@ -1,0 +1,78 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+body{
+  background-image: url(background.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+/* logo e bottoni */
+.container{
+width: 65%;
+height: 900px;
+margin: auto;
+background-color: rgba(0, 0, 0, 0.5);
+padding: 100px;
+margin-top: 2%;
+margin-bottom: 4%;
+border-radius: 2%;
+}
+header{
+  text-align: center;
+
+}
+#logo{
+  width: 200px;
+}
+#title{
+  color: limegreen;
+  font-family: arial;
+}
+.button-tab{
+  background-color: limegreen;
+  padding: 8px;
+
+}
+/* selezione monopattino */
+section{
+  color: white;
+  font-family: arial
+}
+input[type="checkbox"]{
+  display: inline-block;
+}
+section>h2{
+  display: inline-block;
+  margin-top: 15px;
+  font-weight:normal;
+
+}
+section>span{
+  display: block;
+  margin-top: 6px;
+  font-weight: lighter;
+
+
+}
+
+/* stato carica */
+
+section>div{
+  height: 30px
+}
+div.lowchargebar{
+  background-color:red;
+  width: 100px;
+  border-radius: 8px;
+}
+div.medchargebar{
+  background-color:orange;
+  width: 300px;
+  border-radius: 8px;
+}
+div.maxchargebar{
+  background-color:limegreen;
+  width: 500px;
+  border-radius: 8px;
+}
